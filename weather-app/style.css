@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#app-container {
+  background-color: #1e3a5f; /* Deep navy blue */
+  width: 60%;
+  height: 400px;
+  padding: 1em;
+  margin: 3em auto;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#user-field {
+  background-color: #ffffff; /* White */
+  width: 40%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  color: #1e3a5f; /* Deep navy blue */
+  padding: 0.5em;
+  border-bottom: 1px solid #dcdcdc; /* Light gray */
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+input, button {
+  padding: 0.7em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.4em;
+  border-radius: 0.3em;
+}
+
+button {
+  background-color: #ff6b6b; /* Coral red */
+  border: none;
+  border-radius: 0.3em;
+  margin-bottom: 2em;
+  color: #ffffff;
+  margin-top: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff5252; /* Slightly darker coral red */
+}
+
+input {
+  border: 1px solid #dcdcdc; /* Light gray */
+  text-align: center;
+  border-radius: 0.3em;
+}
+
+#weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#city-name {
+  color: #ffffff; /* White */
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#date {
+  color: #f0e68c; /* Khaki */
+  margin-bottom: 0.5em;
+}
+
+#weather-icon {
+  margin-bottom: 0.5em;
+}
+
+#temperature {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #ffffff; /* White */
+  margin-bottom: 0.6em;
+}
+
+#description {
+  color: #f0e68c; /* Khaki */
+  font-size: 1em;
+  margin-bottom: 0.3em;
+}
+
+#wind-speed {
+  color: #f0e68c; /* Khaki */
+}
+
+@media screen and (max-width: 900px){
+  #app-container{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+  }
+
+  #user-field{
+    width: 80%;
+    height: 50%;
+  }
+  input{
+    width: 9em;
+  }
+
+  #weather-info {
+    margin-top: 0;
+    margin-bottom: 2em;
+  }
+};
+  
