@@ -1,3 +1,5 @@
+![Weather app  screenshot](https://github.com/user-attachments/assets/b653dffb-5d6f-48d4-af77-0d44685fccc9)
+
 # Weather App
 
   A simple and responsive weather application that allows users to check the current weather in any city worldwide. The app fetches real-time weather data from the OpenWeatherMap API and displays it in a user-friendly interface.
@@ -13,8 +15,8 @@
 
 ## Technologies Used
 
-  HTML5
-  CSS3
-  JavaScript (ES6)
-  OpenWeatherMap API: Provides real-time weather data.
+  HTML5,
+  CSS3,
+  JavaScript (ES6),
+  OpenWeatherMap API: Provides real-time weather data,
   Moment.js: Used for formatting date and time.
